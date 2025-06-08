@@ -1,0 +1,109 @@
+/**
+ * Estilos para a página de administração do Smart Pay Discount
+ */
+
+/* Isola os estilos apenas para a página do plugin */
+.woocommerce_page_smart-pay-discount .spd-settings-wrap {
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.woocommerce_page_smart-pay-discount .spd-settings-wrap .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.woocommerce_page_smart-pay-discount .spd-settings-wrap .form-table td {
+    padding: 15px 10px;
+}
+
+.woocommerce_page_smart-pay-discount .spd-settings-wrap input[type="text"],
+.woocommerce_page_smart-pay-discount .spd-settings-wrap input[type="number"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+.woocommerce_page_smart-pay-discount .spd-settings-wrap .description {
+    color: #666;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+/* Estilos para o select2 de categorias */
+.woocommerce_page_smart-pay-discount .spd-categories-select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.woocommerce_page_smart-pay-discount .select2-container--default .select2-selection--multiple {
+    border-color: #ddd;
+}
+
+.woocommerce_page_smart-pay-discount .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+/* Estilos para o Select2 */
+.spd-settings-wrap .select2-container {
+    width: 100% !important;
+    max-width: 400px;
+}
+
+.spd-settings-wrap .select2-container--default .select2-selection--multiple {
+    border-color: #ddd;
+    border-radius: 4px;
+}
+
+.spd-settings-wrap .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+.spd-settings-wrap .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #f0f0f1;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px 6px;
+}
+
+.spd-settings-wrap .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #666;
+    margin-right: 5px;
+}
+
+.spd-settings-wrap .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #dc3232;
+}
+
+/* Estilos para checkboxes */
+.spd-settings-wrap input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.spd-settings-wrap label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 782px) {
+    .spd-settings-wrap .form-table th {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .spd-settings-wrap .form-table td {
+        padding: 10px 0;
+    }
+
+    .spd-settings-wrap input[type="text"],
+    .spd-settings-wrap input[type="number"],
+    .spd-settings-wrap .select2-container {
+        max-width: 100%;
+    }
+} 

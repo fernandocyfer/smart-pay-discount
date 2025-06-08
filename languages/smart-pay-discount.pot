@@ -1,0 +1,61 @@
+# Copyright (C) 2024 Fernando Filho
+# This file is distributed under the same license as the Smart Pay Discount plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Pay Discount 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smart-pay-discount\n"
+"POT-Creation-Date: 2024-03-20 12:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-smart-pay-discount-admin.php:89
+msgid "Smart Pay Discount"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:90
+msgid "Smart Pay Discount"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:108
+msgid "Configurações Gerais"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:117
+msgid "Ativar Plugin"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:126
+msgid "Percentual de Desconto (%)"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:135
+msgid "Métodos de Pagamento"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:144
+msgid "Categorias Excluídas"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:153
+msgid "Ignorar com Cupom"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:166
+msgid "Configure as opções do Smart Pay Discount."
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:179
+msgid "Ativar o plugin"
+msgstr ""
+
+#: admin/class-smart-pay-discount-admin.php:207
+msgid "Ignorar desconto quando houver cupom aplicado"
+msgstr ""
+
+#: public/class-smart-pay-discount-public.php:89
+msgid "Desconto %s%% (%s)"
+msgstr "" 

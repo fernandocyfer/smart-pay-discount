@@ -1,0 +1,11 @@
+/**
+ * Estilos para o Smart Pay Discount
+ */
+
+.woocommerce-cart .cart-collaterals .cart_totals .fee {
+    color: #28a745;
+}
+
+.woocommerce-checkout .shop_table .fee {
+    color: #28a745;
+} 
